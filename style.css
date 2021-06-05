@@ -1,0 +1,85 @@
+body {
+	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: white;
+}
+
+h1,h2 {
+	font-family: Georgia;
+}
+
+h1 {
+	border-bottom: 3px solid #aaa;
+	background-color: gray;
+	color: white;
+	padding: 5px;	
+}
+
+h2 {
+	border-top: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+	background-color: gray;
+	padding: 3px;
+	margin: 0 0 0 -15px;
+	font-weight: normal;
+}
+
+.secao {
+	background-color: black;
+	padding-left: 15px;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+label:after {
+	content: ":";
+}
+
+a {
+	text-decoration:none;
+	color: blue;
+}
+
+a:visited {
+	text-decoration:none;
+	color: gray;
+}
+
+a:hover {
+	text-decoration:none;
+	color: gray;
+}
+
+#menu {
+	margin: 0;
+}
+
+#menu ul, #menu li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu .ativo {
+	background-color: black;
+}
+
+.luan {
+	padding: 5px;
+}
+
+.url, .email {
+	display: block;
+}
+
+.photo {
+	float: right;
+	margin-right: 20%;
+}
+
+
+
